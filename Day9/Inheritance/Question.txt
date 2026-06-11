@@ -41,3 +41,4 @@ Edge cases
 withdraw more then your balance
 negative deposit (nhi anni chahiye)
 interestRate negative (nbi anni chahiye)
+ 
