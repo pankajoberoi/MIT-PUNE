@@ -2,7 +2,7 @@ package Day10;
 
 public class Parking {
 
-    int Toll() {
+    int toll() {
         return 0;
     }
 

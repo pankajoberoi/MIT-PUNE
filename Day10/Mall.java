@@ -3,9 +3,10 @@ package Day10;
 public class Mall {
     public static void main(String[] args) {
 
+        Bike b1 = new Bike();
         Parking vehicles[] = {
                 new Car(),
-                new Bike(),
+                b1,
                 new Truck(),
                 new Car(),
                 new Bike(),
@@ -19,20 +20,15 @@ public class Mall {
         int countOfCar = 0;
         int countOfTruck = 0;
 
-        int totalToll = 0;
-
         for (Parking v : vehicles) {
             if (v instanceof Car) {
-                Car temp = new Car();
-                car = car + temp.toll();
                 countOfCar++;
+                car = car + v.toll();
             } else if (v instanceof Bike) {
-                Bike temp2 = new Bike();
-                bike = bike + temp2.toll();
                 countOfBike++;
+                bike = bike + v.toll();
             } else if (v instanceof Truck) {
-                Truck temp3 = new Truck();
-                truck = truck + temp3.toll();
+                truck = truck + v.toll();
                 countOfTruck++;
             }
 
