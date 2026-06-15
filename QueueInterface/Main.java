@@ -10,16 +10,16 @@ public class Main {
 
         line.add(new Patient(101, "Pankaj", 26, "TimePass"));
 
-        line.add(new Patient(107, "Rahul", 26, "TimePass"));
+        line.add(new Patient(107, "Rahul", 20, "TimePass"));
 
-        line.add(new Patient(102, "Jaanu", 26, "TimePass"));
+        line.add(new Patient(102, "Jaanu", 24, "TimePass"));
 
-        line.add(new Patient(105, "Ram", 26, "TimePass"));
+        line.add(new Patient(105, "Ram", 18, "TimePass"));
 
         System.out.println(line);
 
-        Collections.sort(line, new SortByPatientName());
-        System.out.println("===================Sorted on basis of ID=============");
+        Collections.sort(line, new SortByPatientAge());
+        System.out.println("===================Sorted on basis of Age=============");
         System.out.println(line);
     }
 }
