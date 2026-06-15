@@ -1,3 +1,5 @@
+package Day6;
+
 public class MergeSort {
 
     // Merges two subarrays of arr[].
