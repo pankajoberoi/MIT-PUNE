@@ -1,4 +1,4 @@
-package QueueInterface;
+package Day13.QueueInterface;
 
 public class Patient implements Comparable<Patient> {
     private int Id;
